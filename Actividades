@@ -1,0 +1,14 @@
+# IMC 2098337 Rosio Nicole Gonzalez Guerrero
+# IMC 2095410 Jesus Valdez Hurtado
+# IMC 2120827 Vanessa Mendoza Ramírez
+# IMC 2103795 Diego Nedved Saucedo de la Torre
+# IMC 2177946 Ximena Guedea Saldaña
+
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+url = "https://raw.githubusercontent.com/dilp90/InteligenciaArtificial_y_RedesNeuronales_UANL_FIME/main/MachineLearning/Datasets/robot_sensors.csv"
+# Cargar datos desde un archivo CSV
+df = pd.read_csv(url)
+
